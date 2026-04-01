@@ -89,7 +89,7 @@ function FounderCard({
 
         {/* Stats */}
         {stats && stats.length > 0 && (
-          <div className="grid grid-cols-3 gap-3 w-full mt-2">
+          <div className="grid grid-cols-2 gap-3 w-full justify-between mt-2">
             {stats.map((stat, i) => (
               <div
                 key={i}
@@ -121,7 +121,6 @@ export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) 
       <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <motion.div
-          variants={prefersReducedMotion ? {} : fadeUpVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
@@ -154,8 +153,7 @@ export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) 
             badge={danielBadge}
             bio={danielBio}
             stats={[
-              { value: "30+", label: isEs ? "Proyectos deployados" : "Projects deployed" },
-              { value: "340+", label: isEs ? "Alumnos formados" : "Students trained" },
+              { value: "30+", label: isEs ? "Proyectos deployados" : "Projects deployed" },             
               { value: "7+", label: isEs ? "Años de experiencia" : "Years experience" },
             ]}
             gradientFrom="#3B82F6"
