@@ -29,20 +29,6 @@ export function Footer({ c, lang }: FooterProps) {
               <span className="text-white font-black text-lg">{c.navLogo}</span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed">{c.footerTagline}</p>
-            <div className="flex items-center gap-3">
-              <a href="#" aria-label="Instagram" className="text-slate-600 hover:text-white transition-colors">
-                <Instagram size={18} />
-              </a>
-              <a href="#" aria-label="LinkedIn" className="text-slate-600 hover:text-white transition-colors">
-                <Linkedin size={18} />
-              </a>
-              <a href="#" aria-label="YouTube" className="text-slate-600 hover:text-white transition-colors">
-                <Youtube size={18} />
-              </a>
-              <a href="#" aria-label="Twitter / X" className="text-slate-600 hover:text-white transition-colors">
-                <Twitter size={18} />
-              </a>
-            </div>
           </div>
 
           {/* Col 2: Event info */}

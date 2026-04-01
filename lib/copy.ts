@@ -299,7 +299,6 @@ export const copy = {
     instructorBadge: "🌎 Instructor bilingüe (Español/English)",
     instructorStats: [
       { label: "Proyectos deployados", value: `${INSTRUCTOR_PROJECTS}+` },
-      { label: "Alumnos formados", value: `${INSTRUCTOR_STUDENTS}+` },
       { label: "Años de experiencia", value: `${INSTRUCTOR_YEARS}` },
     ],
 
@@ -693,7 +692,6 @@ export const copy = {
     instructorBadge: "🌎 Bilingual instructor (Español/English)",
     instructorStats: [
       { label: "Deployed projects", value: `${INSTRUCTOR_PROJECTS}+` },
-      { label: "Students trained", value: `${INSTRUCTOR_STUDENTS}+` },
       { label: "Years of experience", value: `${INSTRUCTOR_YEARS}` },
     ],
 

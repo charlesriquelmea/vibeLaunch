@@ -178,7 +178,7 @@ export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTA
 interface StickyBarProps {
   c: Copy
   prefersReducedMotion: boolean
-  countdown: { h: string; m: string; s: string }
+  countdown: {days:string , h: string; m: string; s: string }
 }
 
 export function StickyBar({ c, prefersReducedMotion, countdown }: StickyBarProps) {
@@ -215,7 +215,7 @@ export function StickyBar({ c, prefersReducedMotion, countdown }: StickyBarProps
             <p className="text-sm text-slate-300 font-medium text-center sm:text-left">
               {c.stickyText}{" "}
               <span className="text-red-400 font-mono font-bold">
-                {countdown.h}:{countdown.m}:{countdown.s}
+                {countdown.days}d:{countdown.h}:{countdown.m}:{countdown.s}
               </span>
             </p>
             <Button
