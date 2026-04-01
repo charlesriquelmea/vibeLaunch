@@ -296,7 +296,7 @@ export const copy = {
 
     // Instructor
     instructorBio: `Arquitecto de ecosistemas con 12 años innovando en tech. 10 productos construidos. 9 incubaciones impulsadas en Latam. Especializado en el mercado latino: emprendedores, equipos y builders que quieren construir negocios reales con herramientas de frontera.`,
-    instructorBadge: "🌎 Instructor bilingüe (Español/English)",
+    instructorBadge: "🌎 Founder & CEO",
     instructorStats: [
       { label: "Proyectos deployados", value: `${INSTRUCTOR_PROJECTS}+` },
       { label: "Años de experiencia", value: `${INSTRUCTOR_YEARS}` },
@@ -689,7 +689,7 @@ export const copy = {
     ],
 
     instructorBio: `Ecosystem architect with 12 years of experience in tech innovation. 10 products built. 9 incubations launched in Latin America. Specialized in the Latin American market: entrepreneurs, teams, and builders who want to build real businesses with cutting-edge tools.`,
-    instructorBadge: "🌎 Bilingual instructor (Español/English)",
+    instructorBadge: "🌎 Founder & CEO",
     instructorStats: [
       { label: "Deployed projects", value: `${INSTRUCTOR_PROJECTS}+` },
       { label: "Years of experience", value: `${INSTRUCTOR_YEARS}` },
