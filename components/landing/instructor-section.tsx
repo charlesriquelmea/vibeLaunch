@@ -9,14 +9,14 @@ const fadeUpVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 }
 
-const DANIEL_NAME = "Daniel Castiblancas"
+const DANIEL_NAME = "Daniel Castiblanco"
 const DANIEL_INITIALS = "DC"
 const DANIEL_BADGE_ES = "Co-Founder & CTO"
 const DANIEL_BADGE_EN = "Co-Founder & CTO"
 const DANIEL_BIO_ES =
-  "Ingeniero de software con más de 10 años construyendo productos de alta escala. Especialista en arquitectura full-stack, DevOps y productos basados en IA. Co-fundador de Protolylat y líder técnico detrás de los sistemas que potencian AI Engineer Builders."
+  "Ingeniero de software con 7+ años construyendo productos full-stack a escala. Especialista en arquitectura TypeScript/Angular, DevOps con Docker y productos basados en IA. Creador de Sendell, plataforma de agentes IA en producción con clientes activos."
 const DANIEL_BIO_EN =
-  "Software engineer with 10+ years building high-scale products. Specialist in full-stack architecture, DevOps, and AI-powered products. Co-founder of Protolylat and the technical lead behind the systems powering AI Engineer Builders."
+  "Software engineer with 7+ years of experience building full-stack products at scale. Specialist in TypeScript/Angular architecture, DevOps with Docker, and AI-based products. Creator of Sendell, a production AI agent platform with active clients."
 
 interface InstructorProps {
   c: Copy
@@ -154,9 +154,9 @@ export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) 
             badge={danielBadge}
             bio={danielBio}
             stats={[
-              { value: "7+", label: isEs ? "Proyectos deployados" : "Projects deployed" },
+              { value: "30+", label: isEs ? "Proyectos deployados" : "Projects deployed" },
               { value: "340+", label: isEs ? "Alumnos formados" : "Students trained" },
-              { value: "6", label: isEs ? "Años de experiencia" : "Years experience" },
+              { value: "7+", label: isEs ? "Años de experiencia" : "Years experience" },
             ]}
             gradientFrom="#3B82F6"
             gradientTo="#1D4ED8"

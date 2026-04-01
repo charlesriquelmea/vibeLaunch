@@ -12,11 +12,11 @@ export const EVENT_DATE = "Sábado 25 de Abril, 2026"
 export const EVENT_DATE_EN = "Saturday, April 25, 2026"
 export const WA_NUMBER = "15513349406" // WhatsApp oficial
 export const SPOTS_AVAILABLE = 50 // [REEMPLAZAR: CUPOS_DISPONIBLES]
-export const INSTRUCTOR_NAME = "Carlos Rivera" // [REEMPLAZAR: NOMBRE_INSTRUCTOR]
+export const INSTRUCTOR_NAME = "Carlos Riquelme" // [REEMPLAZAR: NOMBRE_INSTRUCTOR]
 export const INSTRUCTOR_INITIALS = "CR" // [REEMPLAZAR: INICIALES_INSTRUCTOR]
-export const INSTRUCTOR_PROJECTS = 87 // [REEMPLAZAR: X_PROYECTOS_DEPLOYADOS]
+export const INSTRUCTOR_PROJECTS = "10" // [REEMPLAZAR: X_PROYECTOS_DEPLOYADOS]
 export const INSTRUCTOR_STUDENTS = 340 // [REEMPLAZAR: X_ALUMNOS_FORMADOS]
-export const INSTRUCTOR_YEARS = 8 // [REEMPLAZAR: X_AÑOS_EXPERIENCIA]
+export const INSTRUCTOR_YEARS = "13+" // [REEMPLAZAR: X_AÑOS_EXPERIENCIA]
 export const ENROLLED_THIS_WEEK = 23 // [REEMPLAZAR: X_PERSONAS_INSCRITAS_SEMANA]
 
 export const copy = {
@@ -295,7 +295,7 @@ export const copy = {
     ],
 
     // Instructor
-    instructorBio: `Instructor bilingüe con ${INSTRUCTOR_YEARS} años buildando con Next.js. ${INSTRUCTOR_PROJECTS} proyectos deployados. ${INSTRUCTOR_STUDENTS} alumnos formados en USA. Especializado en el mercado latino: freelancers, emprendedores y profesionales que quieren ingresos reales con tecnología real.`,
+    instructorBio: `Arquitecto de ecosistemas con 12 años innovando en tech. 10 productos construidos. 9 incubaciones impulsadas en Latam. Especializado en el mercado latino: emprendedores, equipos y builders que quieren construir negocios reales con herramientas de frontera.`,
     instructorBadge: "🌎 Instructor bilingüe (Español/English)",
     instructorStats: [
       { label: "Proyectos deployados", value: `${INSTRUCTOR_PROJECTS}+` },
@@ -689,7 +689,7 @@ export const copy = {
       },
     ],
 
-    instructorBio: `Bilingual instructor with ${INSTRUCTOR_YEARS} years building with Next.js. ${INSTRUCTOR_PROJECTS} deployed projects. ${INSTRUCTOR_STUDENTS} students trained in the USA. Specialized in the Latino market: freelancers, entrepreneurs, and professionals who want real income with real technology.`,
+    instructorBio: `Ecosystem architect with 12 years of experience in tech innovation. 10 products built. 9 incubations launched in Latin America. Specialized in the Latin American market: entrepreneurs, teams, and builders who want to build real businesses with cutting-edge tools.`,
     instructorBadge: "🌎 Bilingual instructor (Español/English)",
     instructorStats: [
       { label: "Deployed projects", value: `${INSTRUCTOR_PROJECTS}+` },
