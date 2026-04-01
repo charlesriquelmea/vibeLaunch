@@ -22,7 +22,7 @@ export function Footer() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center font-bold text-foreground">
                   V
                 </div>
-                <span className="font-bold text-lg">VibeLaunch</span>
+                <span className="font-bold text-lg">Build in Nextjs</span>
               </div>
               <p className="text-sm opacity-75">
                 Transformando emprendedores latinos a través del conocimiento digital.
@@ -77,7 +77,7 @@ export function Footer() {
           {/* Divider */}
           <motion.div variants={itemVariants} className="border-t border-primary/20 pt-8">
             <div className="text-center text-sm opacity-75">
-              <p>© {currentYear} VibeLaunch. Todos los derechos reservados.</p>
+              <p>© {currentYear} Build in Nextjs. Todos los derechos reservados.</p>
               <p className="mt-2">Hecho con ❤️ para emprendedores latinos</p>
             </div>
           </motion.div>

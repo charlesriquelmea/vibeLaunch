@@ -25,7 +25,7 @@ export const copy = {
     announcementBar: `🎓 FORMACIÓN EN VIVO · ${EVENT_DATE} · 10 AM – 12 PM ET · Next.js + IA + Vibe Coding · 2 Horas · De cero a deployado · Solo ${SPOTS_AVAILABLE} estudiantes · $397 Early Bird →`,
 
     // Navbar
-    navLogo: "VibeLaunch",
+    navLogo: "Build in Nextjs",
     navLinks: [
       { label: "El Método", href: "#metodo" },
       { label: "Programa", href: "#curriculum" },
@@ -55,7 +55,7 @@ export const copy = {
     heroCta: "Asegurar mi cupo ($397) →",
     heroCopy: "Aprende · construye · deploya · en un solo sábado · Garantía total si no aprendes nada aplicable",
     heroSecondary: "Ver qué construirás ↓",
-    browserUrl: "vibelaunch.com ✓ 🔒",
+    browserUrl: "Build in Nextjs.com ✓ 🔒",
     terminalLines: [
       "$ npx create-next-app@latest mi-landing",
       "✓ Ready in 2.3s",
@@ -423,13 +423,13 @@ export const copy = {
     footerLinks: ["Política de privacidad", "Términos", "Contacto"],
     footerWaTitle: "¿Preguntas antes de inscribirte?",
     footerWaBtn: "Chatear por WhatsApp →",
-    footerCopy: `© 2026 VibeLaunch. Evento 100% online. Horario Eastern Time (ET). NJ / NY / USA. Hecho con ❤️ para la comunidad latina.`,
+    footerCopy: `© 2026 Build in Nextjs. Evento 100% online. Horario Eastern Time (ET). NJ / NY / USA. Hecho con ❤️ para la comunidad latina.`,
   },
 
   en: {
     announcementBar: `🎓 LIVE TRAINING · ${EVENT_DATE_EN} · 10 AM – 12 PM ET · Next.js + AI + Vibe Coding · 2 Hours · Zero to deployed · Only ${SPOTS_AVAILABLE} students · $397 Early Bird →`,
 
-    navLogo: "VibeLaunch",
+    navLogo: "Build in Nextjs",
     navLinks: [
       { label: "The Method", href: "#metodo" },
       { label: "Program", href: "#curriculum" },
@@ -458,7 +458,7 @@ export const copy = {
     heroCta: "Secure my spot ($397) →",
     heroCopy: "Learn · build · deploy · in a single Saturday · Full guarantee if you don't learn anything applicable",
     heroSecondary: "See what you'll build ↓",
-    browserUrl: "vibelaunch.com ✓ 🔒",
+    browserUrl: "Build in Nextjs.com ✓ 🔒",
     terminalLines: [
       "$ npx create-next-app@latest my-landing",
       "✓ Ready in 2.3s",
@@ -812,7 +812,7 @@ export const copy = {
     footerLinks: ["Privacy Policy", "Terms", "Contact"],
     footerWaTitle: "Questions before enrolling?",
     footerWaBtn: "Chat on WhatsApp →",
-    footerCopy: `© 2026 VibeLaunch. 100% online event. Eastern Time (ET). NJ / NY / USA. Made with ❤️ for the Latino community.`,
+    footerCopy: `© 2026 Build in Nextjs. 100% online event. Eastern Time (ET). NJ / NY / USA. Made with ❤️ for the Latino community.`,
   },
 }
 
