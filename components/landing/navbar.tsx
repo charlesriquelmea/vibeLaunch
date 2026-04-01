@@ -12,7 +12,7 @@ interface NavbarProps {
   lang: Lang
   setLang: (l: Lang) => void
   prefersReducedMotion: boolean
-  countdown: { h: string; m: string; s: string }
+  countdown: {days:string, h: string; m: string; s: string }
 }
 
 export function Navbar({ c, lang, setLang, prefersReducedMotion, countdown }: NavbarProps) {
@@ -98,7 +98,8 @@ export function Navbar({ c, lang, setLang, prefersReducedMotion, countdown }: Na
 
           {/* Mini countdown */}
           <span className="text-xs font-mono text-slate-400 hidden lg:block">
-            {c.navCountdownLabel} <span className="text-orange-400 font-bold">{countdown.h}:{countdown.m}:{countdown.s}</span>
+            {c.navCountdownLabel} 
+            <span className="text-orange-400 font-bold">{countdown.days}:{countdown.h}:{countdown.m}:{countdown.s}</span>
           </span>
 
           <Button

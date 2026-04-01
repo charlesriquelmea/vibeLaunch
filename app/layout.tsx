@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     title: 'Formación Next.js en Español | Vibe Coding en 3 Horas',
     description: 'Taller intensivo en vivo para latinos en USA. De cero a producción. Solo 50 cupos. $297.',
   },
+  icons: {
+    icon: 'favicon.png',
+    apple: 'favicon.png',
+  },
 }
 
 export default function RootLayout({

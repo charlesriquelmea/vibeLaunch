@@ -45,7 +45,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
         {/* ── Value receipt ── */}
         <div>
           <motion.div
-            variants={prefersReducedMotion ? {} : fadeUpVariants}
+            
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -57,7 +57,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
           </motion.div>
 
           <motion.div
-            variants={prefersReducedMotion ? {} : fadeUpVariants}
+            
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -74,7 +74,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
               {c.valueItems.map((item, i) => (
                 <motion.li
                   key={i}
-                  variants={prefersReducedMotion ? {} : fadeUpVariants}
+                  
                   className="flex items-center justify-between gap-4 px-6 py-4"
                 >
                   <div className="flex items-center gap-3">
@@ -111,7 +111,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
           </motion.div>
 
           <motion.p
-            variants={prefersReducedMotion ? {} : fadeUpVariants}
+            
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -124,7 +124,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
         {/* ── Pricing tiers ── */}
         <div>
           <motion.div
-            variants={prefersReducedMotion ? {} : fadeUpVariants}
+            
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -145,7 +145,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
             {c.pricingTiers.map((tier, i) => (
               <motion.div
                 key={i}
-                variants={prefersReducedMotion ? {} : fadeUpVariants}
+                
                 className={`rounded-xl border-2 p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 transition-colors ${
                   tier.highlighted
                     ? "border-orange-500 bg-orange-500/8"
@@ -197,7 +197,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
 
         {/* ── Growth hack ── */}
         <motion.div
-          variants={prefersReducedMotion ? {} : fadeUpVariants}
+          
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
@@ -230,7 +230,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
 
         {/* ── Payment options ── */}
         <motion.div
-          variants={prefersReducedMotion ? {} : fadeUpVariants}
+          
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
@@ -262,7 +262,7 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
 
         {/* ── Countdown + CTA ── */}
         <motion.div
-          variants={prefersReducedMotion ? {} : fadeUpVariants}
+          
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
