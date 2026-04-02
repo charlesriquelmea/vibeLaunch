@@ -22,7 +22,7 @@ export const ENROLLED_THIS_WEEK = 23 // [REEMPLAZAR: X_PERSONAS_INSCRITAS_SEMANA
 export const copy = {
   es: {
     // Announcement bar
-    announcementBar: `🎓 FORMACIÓN EN VIVO · ${EVENT_DATE} · 10 AM – 12 PM ET · Next.js + IA + Vibe Coding · 2 Horas · De cero a deployado · Solo ${SPOTS_AVAILABLE} estudiantes · $397 Early Bird →`,
+    announcementBar: `🎓 FORMACIÓN EN VIVO · ${EVENT_DATE} · 10 AM – 12 PM ET · Next.js + IA + Vibe Coding · 2 Horas · De cero a deployado · Solo ${SPOTS_AVAILABLE} estudiantes · $297 Early Bird →`,
 
     // Navbar
     navLogo: "Build in Nextjs",
@@ -32,7 +32,7 @@ export const copy = {
       { label: "Testimonios", href: "#testimonios" },
       { label: "Inscribirse", href: "#form" },
     ],
-    navCta: "Asegurar cupo — $397",
+    navCta: "Asegurar cupo — $297",
     navCountdownLabel: "EB:",
 
     // Hero
@@ -52,7 +52,7 @@ export const copy = {
       { icon: "💼", text: "$1,500+ por proyecto" },
       { icon: "🛡️", text: "Garantía total" },
     ],
-    heroCta: "Asegurar mi cupo ($397) →",
+    heroCta: "Asegurar mi cupo ($297) →",
     heroCopy: "Aprende · construye · deploya · en un solo sábado · Garantía total si no aprendes nada aplicable",
     heroSecondary: "Ver qué construirás ↓",
     browserUrl: "Build in Nextjs.com ✓ 🔒",
@@ -177,9 +177,9 @@ export const copy = {
     // Value stack
     valueTitle: "Todo lo que construyes y recibes al inscribirte hoy:",
     valueItems: [
-      { label: "Acceso al taller en vivo (2 horas) — Landing Page con IA", price: "$497" },
-      { label: "Tu landing page deployada con dominio propio", price: "$397" },
-      { label: "Formulario conectado a WhatsApp Business", price: "$297" },
+      { label: "Acceso al taller en vivo (2 horas) — Landing Page con IA", price: "$397" },
+      { label: "Tu landing page deployada con dominio propio", price: "$297" },
+      { label: "Formulario conectado a WhatsApp Business", price: "$197" },
       { label: "Email automático de bienvenida (Resend)", price: "$97" },
       { label: "Animaciones profesionales (Motion)", price: "$97" },
       { label: "Grabación privada 7 días", price: "$97" },
@@ -189,8 +189,8 @@ export const copy = {
     valueTotalLabel: "Valor total de la formación:",
     valueTotalPrice: "$1,336",
     valueYourLabel: "Tu inversión hoy:",
-    valueYourPrice: "$397",
-    valueAnchor: "Un dev en NJ cobra $150/hr. 2 horas de consultoría = $300. Tú pagas $397 y aprendes a construirlo tú — para siempre.",
+    valueYourPrice: "$297",
+    valueAnchor: "Un dev en NJ cobra $150/hr. 2 horas de consultoría = $300. Tú pagas $297 y aprendes a construirlo tú — para siempre.",
 
     // Pricing tiers
     pricingTitle: "Elige tu acceso — cupos limitados:",
@@ -198,8 +198,8 @@ export const copy = {
       {
         label: "Chamber of Commerce Latino NJ",
         badge: "Miembros",
-        price: "$297",
-        originalPrice: "$397",
+        price: "$197",
+        originalPrice: "$297",
         savings: "Ahorras $100",
         description: "Exclusivo para miembros activos de la Chamber of Commerce Latino New Jersey.",
         cta: "Quiero este precio →",
@@ -207,8 +207,8 @@ export const copy = {
       {
         label: "Aliados del ecosistema",
         badge: "Aliados",
-        price: "$347",
-        originalPrice: "$397",
+        price: "$247",
+        originalPrice: "$297",
         savings: "Ahorras $50",
         description: "Para asesores de negocios, contadores, coaches y consultores que refieren clientes.",
         cta: "Quiero este precio →",
@@ -216,9 +216,9 @@ export const copy = {
       {
         label: "Público general",
         badge: "Early Bird",
-        price: "$397",
-        originalPrice: "$497",
-        savings: "Precio sube a $497 pronto",
+        price: "$297",
+        originalPrice: "$397",
+        savings: "Precio sube a $397 pronto",
         description: "Acceso completo al taller. Precio early bird activo mientras haya cupos disponibles.",
         cta: "Asegurar mi cupo →",
         highlighted: true,
@@ -227,16 +227,16 @@ export const copy = {
 
     // Growth hack
     growthTitle: "Trae un amigo y los dos pagan menos:",
-    growthBody: "Refiere a un familiar, amigo o colega — cuando ambos se inscriban, cada uno paga solo $297 en lugar de $397. Comparte tu link personalizado y el descuento se aplica automático. Solo disponible para los próximos 10 cupos referidos.",
+    growthBody: "Refiere a un familiar, amigo o colega — cuando ambos se inscriban, cada uno paga solo $197 en lugar de $297. Comparte tu link personalizado y el descuento se aplica automático. Solo disponible para los próximos 10 cupos referidos.",
     growthBadge: "Solo 10 cupos con este precio",
     growthCta: "Obtener mi link de referido →",
 
     // Payment options
     paymentTitle: "Opciones de pago flexibles:",
     paymentOptions: [
-      { label: "Pago completo", detail: "$397 hoy", highlight: false },
+      { label: "Pago completo", detail: "$297 hoy", highlight: false },
       { label: "3 cuotas", detail: "~$99–$107 / mes", highlight: false },
-      { label: "Reserva anticipada", detail: "$50 hoy → resto en 2 cuotas hasta el workshop", highlight: true },
+      { label: "Reserva anticipada", detail: "$150 hoy → resto en 2 cuotas hasta el workshop", highlight: true },
     ],
 
     // Testimonials
@@ -339,7 +339,7 @@ export const copy = {
     formTitle: `Asegura tu cupo — Solo quedan ${SPOTS_AVAILABLE} lugares`,
     formSubtitle: "2 minutos · 100% por WhatsApp · Sin tarjeta de crédito aún",
     step0Title: "¡Reserva tu lugar en 2 minutos!",
-    step0Body: `Solo ${SPOTS_AVAILABLE} cupos disponibles. Early Bird: $397`,
+    step0Body: `Solo ${SPOTS_AVAILABLE} cupos disponibles. Early Bird: $297`,
     step0Btn: "Empezar →",
     step1Label: "¿Cuál es tu nombre? 👋",
     step1Placeholder: "Tu nombre completo",
@@ -353,8 +353,8 @@ export const copy = {
         emoji: "🏛️",
         title: "Chamber of Commerce Latino NJ",
         body: "Exclusivo para miembros activos",
-        price: "$297",
-        originalPrice: "$397",
+        price: "$197",
+        originalPrice: "$297",
         savings: "Ahorras $100",
       },
       {
@@ -362,8 +362,8 @@ export const copy = {
         emoji: "🤝",
         title: "Aliados del ecosistema",
         body: "Asesores, contadores, coaches, consultores",
-        price: "$347",
-        originalPrice: "$397",
+        price: "$247",
+        originalPrice: "$297",
         savings: "Ahorras $50",
       },
       {
@@ -371,8 +371,8 @@ export const copy = {
         emoji: "🚀",
         title: "Público general",
         body: "Early Bird — precio sube pronto",
-        price: "$397",
-        originalPrice: "$497",
+        price: "$297",
+        originalPrice: "$397",
         savings: "Early Bird activo",
       },
       {
@@ -380,8 +380,8 @@ export const copy = {
         emoji: "👫",
         title: "Trae un amigo y los dos pagan menos",
         body: "Solo 10 cupos con este precio",
-        price: "$297 c/u",
-        originalPrice: "$397",
+        price: "$197 c/u",
+        originalPrice: "$297",
         savings: "Solo 10 cupos disponibles",
         badge: "10 cupos",
       },
@@ -405,13 +405,13 @@ export const copy = {
       "Sin devs. Sin esperar. La habilidad es tuya.",
       "Sábado 10 AM ET. 50 cupos. ¿Entras?",
     ],
-    countdownLabel: "Early Bird $397 termina en:",
-    finalCta: "SÍ, QUIERO MI LUGAR POR $397 →",
-    finalMicro: "→ Registro por WhatsApp · 3 cuotas de ~$99 disponibles · Reserva por $50 · Garantía total",
+    countdownLabel: "Early Bird $297 termina en:",
+    finalCta: "SÍ, QUIERO MI LUGAR POR $297 →",
+    finalMicro: "→ Registro por WhatsApp · 3 cuotas de ~$99 disponibles · Reserva por $150 · Garantía total",
     finalSocial: `🔥 ${ENROLLED_THIS_WEEK} personas ya reservaron su lugar esta semana`,
 
     // Sticky bar
-    stickyText: `🔥 Solo ${SPOTS_AVAILABLE} cupos · Early Bird $397 (sube a $497) · Termina en`,
+    stickyText: `🔥 Solo ${SPOTS_AVAILABLE} cupos · Early Bird $297 (sube a $397) · Termina en`,
     stickyBtn: "Reservar →",
 
     // Footer
@@ -426,7 +426,7 @@ export const copy = {
   },
 
   en: {
-    announcementBar: `🎓 LIVE TRAINING · ${EVENT_DATE_EN} · 10 AM – 12 PM ET · Next.js + AI + Vibe Coding · 2 Hours · Zero to deployed · Only ${SPOTS_AVAILABLE} students · $397 Early Bird →`,
+    announcementBar: `🎓 LIVE TRAINING · ${EVENT_DATE_EN} · 10 AM – 12 PM ET · Next.js + AI + Vibe Coding · 2 Hours · Zero to deployed · Only ${SPOTS_AVAILABLE} students · $297 Early Bird →`,
 
     navLogo: "Build in Nextjs",
     navLinks: [
@@ -435,7 +435,7 @@ export const copy = {
       { label: "Testimonials", href: "#testimonios" },
       { label: "Enroll", href: "#form" },
     ],
-    navCta: "Secure my spot — $397",
+    navCta: "Secure my spot — $297",
     navCountdownLabel: "EB:",
 
     eyebrow: `🎓 Intensive Training · 2 hours · Only ${SPOTS_AVAILABLE} spots · NJ · NY · USA`,
@@ -454,7 +454,7 @@ export const copy = {
       { icon: "💼", text: "$1,500+ per project" },
       { icon: "🛡️", text: "Full guarantee" },
     ],
-    heroCta: "Secure my spot ($397) →",
+    heroCta: "Secure my spot ($297) →",
     heroCopy: "Learn · build · deploy · in a single Saturday · Full guarantee if you don't learn anything applicable",
     heroSecondary: "See what you'll build ↓",
     browserUrl: "Build in Nextjs.com ✓ 🔒",
@@ -573,9 +573,9 @@ export const copy = {
 
     valueTitle: "Everything you build and receive when you enroll today:",
     valueItems: [
-      { label: "Live workshop access (2 hours) — Landing Page with AI", price: "$497" },
-      { label: "Your landing page deployed with custom domain", price: "$397" },
-      { label: "Form connected to WhatsApp Business", price: "$297" },
+      { label: "Live workshop access (2 hours) — Landing Page with AI", price: "$397" },
+      { label: "Your landing page deployed with custom domain", price: "$297" },
+      { label: "Form connected to WhatsApp Business", price: "$197" },
       { label: "Automatic welcome email (Resend)", price: "$97" },
       { label: "Professional animations (Motion)", price: "$97" },
       { label: "Private recording 7 days", price: "$97" },
@@ -585,8 +585,8 @@ export const copy = {
     valueTotalLabel: "Total training value:",
     valueTotalPrice: "$1,336",
     valueYourLabel: "Your investment today:",
-    valueYourPrice: "$397",
-    valueAnchor: "A dev in NJ charges $150/hr. 2 hours of consulting = $300. You pay $397 and learn to build it yourself — forever.",
+    valueYourPrice: "$297",
+    valueAnchor: "A dev in NJ charges $150/hr. 2 hours of consulting = $300. You pay $297 and learn to build it yourself — forever.",
 
     // Pricing tiers
     pricingTitle: "Choose your access — limited spots:",
@@ -594,8 +594,8 @@ export const copy = {
       {
         label: "Chamber of Commerce Latino NJ",
         badge: "Members",
-        price: "$297",
-        originalPrice: "$397",
+        price: "$197",
+        originalPrice: "$297",
         savings: "You save $100",
         description: "Exclusive for active members of the Chamber of Commerce Latino New Jersey.",
         cta: "Get this price →",
@@ -603,8 +603,8 @@ export const copy = {
       {
         label: "Ecosystem allies",
         badge: "Allies",
-        price: "$347",
-        originalPrice: "$397",
+        price: "$247",
+        originalPrice: "$297",
         savings: "You save $50",
         description: "For business advisors, accountants, coaches, and consultants who refer clients.",
         cta: "Get this price →",
@@ -612,9 +612,9 @@ export const copy = {
       {
         label: "General public",
         badge: "Early Bird",
-        price: "$397",
-        originalPrice: "$497",
-        savings: "Price increases to $497 soon",
+        price: "$297",
+        originalPrice: "$397",
+        savings: "Price increases to $397 soon",
         description: "Full workshop access. Early bird price active while spots are available.",
         cta: "Secure my spot →",
         highlighted: true,
@@ -623,16 +623,16 @@ export const copy = {
 
     // Growth hack
     growthTitle: "Bring a friend and both pay less:",
-    growthBody: "Refer a family member, friend, or colleague — when both of you enroll, each pays only $297 instead of $397. Share your personalized link and the discount applies automatically. Only available for the next 10 referred spots.",
+    growthBody: "Refer a family member, friend, or colleague — when both of you enroll, each pays only $197 instead of $297. Share your personalized link and the discount applies automatically. Only available for the next 10 referred spots.",
     growthBadge: "Only 10 spots at this price",
     growthCta: "Get my referral link →",
 
     // Payment options
     paymentTitle: "Flexible payment options:",
     paymentOptions: [
-      { label: "Full payment", detail: "$397 today", highlight: false },
+      { label: "Full payment", detail: "$297 today", highlight: false },
       { label: "3 installments", detail: "~$99–$107 / month", highlight: false },
-      { label: "Early reserve", detail: "$50 today → rest in 2 installments before the workshop", highlight: true },
+      { label: "Early reserve", detail: "$150 today → rest in 2 installments before the workshop", highlight: true },
     ],
 
     testimonialTitle: "What those who already went through the training say:",
@@ -730,7 +730,7 @@ export const copy = {
     formTitle: `Secure your spot — Only ${SPOTS_AVAILABLE} spots left`,
     formSubtitle: "2 minutes · 100% via WhatsApp · No credit card yet",
     step0Title: "Reserve your spot in 2 minutes!",
-    step0Body: `Only ${SPOTS_AVAILABLE} spots available. Early Bird: $397`,
+    step0Body: `Only ${SPOTS_AVAILABLE} spots available. Early Bird: $297`,
     step0Btn: "Start →",
     step1Label: "What's your name? 👋",
     step1Placeholder: "Your full name",
@@ -744,8 +744,8 @@ export const copy = {
         emoji: "🏛️",
         title: "Chamber of Commerce Latino NJ",
         body: "Exclusive for active members",
-        price: "$297",
-        originalPrice: "$397",
+        price: "$197",
+        originalPrice: "$297",
         savings: "Save $100",
       },
       {
@@ -753,8 +753,8 @@ export const copy = {
         emoji: "🤝",
         title: "Ecosystem allies",
         body: "Advisors, accountants, coaches, consultants",
-        price: "$347",
-        originalPrice: "$397",
+        price: "$247",
+        originalPrice: "$297",
         savings: "Save $50",
       },
       {
@@ -762,8 +762,8 @@ export const copy = {
         emoji: "🚀",
         title: "General public",
         body: "Early Bird — price increases soon",
-        price: "$397",
-        originalPrice: "$497",
+        price: "$297",
+        originalPrice: "$397",
         savings: "Early Bird active",
       },
       {
@@ -771,8 +771,8 @@ export const copy = {
         emoji: "👫",
         title: "Bring a friend — both pay less",
         body: "Only 10 spots at this price",
-        price: "$297 ea.",
-        originalPrice: "$397",
+        price: "$197 ea.",
+        originalPrice: "$297",
         savings: "Only 10 spots available",
         badge: "10 spots",
       },
@@ -795,12 +795,12 @@ export const copy = {
       "No devs. No waiting. The skill is yours.",
       "Saturday 10 AM ET. 50 spots. Are you in?",
     ],
-    countdownLabel: "Early Bird $397 ends in:",
-    finalCta: "YES, I WANT MY SPOT FOR $397 →",
-    finalMicro: "→ WhatsApp registration · 3 installments of ~$99 available · Reserve for $50 · Full guarantee",
+    countdownLabel: "Early Bird $297 ends in:",
+    finalCta: "YES, I WANT MY SPOT FOR $297 →",
+    finalMicro: "→ WhatsApp registration · 3 installments of ~$99 available · Reserve for $250 · Full guarantee",
     finalSocial: `🔥 ${ENROLLED_THIS_WEEK} people already reserved this week`,
 
-    stickyText: `🔥 Only ${SPOTS_AVAILABLE} spots · Early Bird $397 (goes to $497) · Ends in`,
+    stickyText: `🔥 Only ${SPOTS_AVAILABLE} spots · Early Bird $297 (goes to $397) · Ends in`,
     stickyBtn: "Reserve →",
 
     footerTagline: "Tech training for the Latino community in the USA.",
