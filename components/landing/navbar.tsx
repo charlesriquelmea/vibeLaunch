@@ -99,7 +99,7 @@ export function Navbar({ c, lang, setLang, prefersReducedMotion, countdown }: Na
           {/* Mini countdown */}
           <span className="text-xs font-mono text-slate-400 hidden lg:block">
             {c.navCountdownLabel} 
-            <span className="text-orange-400 font-bold">{countdown.days}:{countdown.h}:{countdown.m}:{countdown.s}</span>
+            <span className="text-orange-400 font-bold">{countdown.days}d:{countdown.h}:{countdown.m}:{countdown.s}</span>
           </span>
 
           <Button
