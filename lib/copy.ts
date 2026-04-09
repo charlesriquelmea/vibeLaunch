@@ -1,15 +1,6 @@
-// [REEMPLAZAR: FECHA DEL EVENTO] — ej: "Sábado 15 de Febrero, 2026"
-// [REEMPLAZAR: NÚMERO_WA_SIN_SIMBOLOS] — ej: 12015550000 (sin + ni espacios)
-// [REEMPLAZAR: CUPOS_DISPONIBLES] — número actual de cupos
-// [REEMPLAZAR: NOMBRE_INSTRUCTOR]
-// [REEMPLAZAR: INICIALES_INSTRUCTOR] — para el avatar de gradiente
-// [REEMPLAZAR: X_PROYECTOS_DEPLOYADOS]
-// [REEMPLAZAR: X_ALUMNOS_FORMADOS]
-// [REEMPLAZAR: X_AÑOS_EXPERIENCIA]
-// [REEMPLAZAR: X_PERSONAS_INSCRITAS_SEMANA]
 
-export const EVENT_DATE = "Sábado 25 de Abril, 2026"
-export const EVENT_DATE_EN = "Saturday, April 25, 2026"
+export const EVENT_DATE = "Sábado 18 de Abril, 2026"
+export const EVENT_DATE_EN = "Saturday, April 18, 2026"
 export const WA_NUMBER = "15513349406" // WhatsApp oficial
 export const SPOTS_AVAILABLE = 50 // [REEMPLAZAR: CUPOS_DISPONIBLES]
 export const INSTRUCTOR_NAME = "Carlos Riquelme" // [REEMPLAZAR: NOMBRE_INSTRUCTOR]

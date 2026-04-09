@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from "framer-motion"
 import Link from "next/link"
 import { useCountdown } from "@/hooks/useCountdown"
 import { type Copy, ENROLLED_THIS_WEEK, SPOTS_AVAILABLE } from "@/lib/copy"
+import { DATE_OF_COURSE } from "@/lib/const"
 
 interface HeroUrgencySectionProps {
   c: Copy
@@ -13,7 +14,7 @@ interface HeroUrgencySectionProps {
 export default function HeroUrgencySection({ c, prefersReducedMotion }: HeroUrgencySectionProps) {
   const h = c.heroUrgency
   const shouldReduceMotion = useReducedMotion() || prefersReducedMotion
-  const countdown = useCountdown("2026-04-11T23:59:00")
+  const countdown = useCountdown(DATE_OF_COURSE)
 
   // Animation variants
   const fadeUp = {
@@ -183,11 +184,11 @@ export default function HeroUrgencySection({ c, prefersReducedMotion }: HeroUrge
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: 0.08 * rowIndex }}
-                      className="group hover:bg-white/[0.02] transition-colors"
+                      className="group hover:bg-white/2 transition-colors"
                     >
                       <td className="px-8 py-6 text-zinc-300 font-medium">{row[0]}</td>
                       <td className="px-8 py-6 text-zinc-500 group-hover:text-zinc-400 transition-colors">{row[1]}</td>
-                      <td className="px-8 py-6 text-teal-400 bg-teal-500/[0.04] font-semibold">{row[2]}</td>
+                      <td className="px-8 py-6 text-teal-400 bg-teal-500/4 font-semibold">{row[2]}</td>
                     </motion.tr>
                   ))}
                 </tbody>
@@ -210,7 +211,7 @@ export default function HeroUrgencySection({ c, prefersReducedMotion }: HeroUrge
                       <div className="text-zinc-600 font-mono uppercase text-[9px] mb-1 tracking-wider">{h.tableHeaders[1]}</div>
                       <div className="text-zinc-400 text-sm leading-snug">{row[1]}</div>
                     </div>
-                    <div className="bg-teal-500/[0.03] p-3 rounded-lg border border-teal-500/10">
+                    <div className="bg-teal-500/3 p-3 rounded-lg border border-teal-500/10">
                       <div className="text-teal-500/70 font-mono uppercase text-[9px] mb-1 tracking-wider">{h.tableHeaders[2]}</div>
                       <div className="text-teal-400 font-bold text-sm leading-snug">{row[2]}</div>
                     </div>
@@ -244,8 +245,8 @@ export default function HeroUrgencySection({ c, prefersReducedMotion }: HeroUrge
                   </span>
                 ))}
               </motion.div>
-              <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#09090b] via-[#09090b]/80 to-transparent z-20" />
-              <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#09090b] via-[#09090b]/80 to-transparent z-20" />
+              <div className="absolute inset-y-0 left-0 w-32 bg-linear-to-r from-[#09090b] via-[#09090b]/80 to-transparent z-20" />
+              <div className="absolute inset-y-0 right-0 w-32 bg-linear-to-l from-[#09090b] via-[#09090b]/80 to-transparent z-20" />
             </div>
           </div>
 
@@ -275,7 +276,7 @@ export default function HeroUrgencySection({ c, prefersReducedMotion }: HeroUrge
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
-              className="group border border-red-500/20 rounded-3xl p-8 bg-red-500/[0.01] hover:bg-red-500/[0.03] hover:border-red-500/40 transition-all duration-500 relative overflow-hidden shadow-2xl shadow-red-500/5"
+              className="group border border-red-500/20 rounded-3xl p-8 bg-red-500/1 hover:bg-red-500/3 hover:border-red-500/40 transition-all duration-500 relative overflow-hidden shadow-2xl shadow-red-500/5"
             >
               <div className="text-red-400/70 text-[10px] md:text-[11px] font-black uppercase tracking-[0.25em] mb-6">
                 {h.riskTitleFuture}

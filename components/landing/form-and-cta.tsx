@@ -58,7 +58,7 @@ export function FormSection({ c, lang, prefersReducedMotion }: FormSectionProps)
 interface FinalCTASectionProps {
   c: Copy
   prefersReducedMotion: boolean
-  countdown: { h: string; m: string; s: string }
+  countdown: { days: string; h: string; m: string; s: string }
 }
 
 export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTASectionProps) {
@@ -141,6 +141,8 @@ export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTA
         >
           <p className="text-sm text-slate-400">{c.countdownLabel}</p>
           <div className="flex items-center gap-2 font-mono font-black text-4xl md:text-5xl text-red-400">
+            <span className="tabular-nums">{countdown.days}</span>
+            <span className="text-slate-700">:</span>
             <span className="tabular-nums">{countdown.h}</span>
             <span className="text-slate-700">:</span>
             <span className="tabular-nums">{countdown.m}</span>
@@ -215,7 +217,7 @@ export function StickyBar({ c, prefersReducedMotion, countdown }: StickyBarProps
             <p className="text-sm text-slate-300 font-medium text-center sm:text-left">
               {c.stickyText}{" "}
               <span className="text-red-400 font-mono font-bold">
-                {countdown.days}d:{countdown.h}:{countdown.m}:{countdown.s}
+                {countdown.days}d:{countdown.h}h:{countdown.m}m:{countdown.s}s
               </span>
             </p>
             <Button

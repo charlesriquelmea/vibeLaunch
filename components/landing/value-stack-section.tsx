@@ -22,7 +22,7 @@ const containerVariants = {
 interface ValueStackProps {
   c: Copy
   prefersReducedMotion: boolean
-  countdown: { h: string; m: string; s: string }
+  countdown: {days: string, h: string; m: string; s: string }
 }
 
 export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueStackProps) {
@@ -271,11 +271,14 @@ export function ValueStackSection({ c, prefersReducedMotion, countdown }: ValueS
           <div className="text-center">
             <p className="text-sm text-slate-400 mb-2">{c.countdownLabel}</p>
             <div className="flex items-center gap-3 font-mono font-black text-3xl text-red-400">
+              <FlipUnit value={countdown.days}/>
+              <span className="text-slate-600">d :</span>
               <FlipUnit value={countdown.h} />
-              <span className="text-slate-600">:</span>
+              <span className="text-slate-600">h :</span>
               <FlipUnit value={countdown.m} />
-              <span className="text-slate-600">:</span>
+              <span className="text-slate-600"> m:</span>
               <FlipUnit value={countdown.s} />
+              <span className="text-slate-600"> s</span>
             </div>
           </div>
           <Button
