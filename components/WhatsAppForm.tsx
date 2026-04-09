@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useCountdown } from '@/hooks/useCountdown';
 import { triggerConfetti } from '@/lib/confetti';
 import { containerVariants, itemVariants } from '@/lib/animations';
+import { DATE_OF_COURSE } from '@/lib/const';
 
 type FormStep = 1 | 2 | 3 | 4 | 5 | 6;
 
@@ -21,7 +22,7 @@ export function WhatsAppForm() {
     challenge: '',
   });
 
-  const countdown = useCountdown('2026-04-25T10:00:00-04:00');
+  const countdown = useCountdown(DATE_OF_COURSE);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
