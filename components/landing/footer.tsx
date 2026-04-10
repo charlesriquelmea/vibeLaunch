@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import { Instagram, Linkedin, Youtube, Twitter, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
-import { EVENT_DATE, EVENT_DATE_EN, WA_NUMBER } from "@/lib/copy"
-import type { Copy, Lang } from "@/lib/copy"
+import { WA_NUMBER, type Copy, type Lang } from "@/lib/copy"
+import { EVENT_DATE, EVENT_DATE_EN } from "@/lib/const"
 
 interface FooterProps {
   c: Copy

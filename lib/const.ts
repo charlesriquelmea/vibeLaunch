@@ -1,1 +1,5 @@
-export const DATE_OF_COURSE= "2026-04-18T23:59:00"
+export const DATE_OF_COURSE= "2026-04-29T23:59:00"
+export const EVENT_DATE = "Miércoles 29 de Abril, 2026"
+export const EVENT_DATE_EN = "Wednesday, April 29, 2026"
+export const DAY_WEEK_OF_COURSE_ES = "Miércoles"
+export const DAY_WEEK_OF_COURSE_EN = "Wednesday"

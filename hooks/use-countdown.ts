@@ -3,7 +3,7 @@
 import { DATE_OF_COURSE } from "@/lib/const"
 import { useState, useEffect } from "react"
 
-// Saturday April 25, 2026 at 10:00 AM Eastern Time
+// DAY_WEEK_OF_COURSE_EN April 25, 2026 at 10:00 AM Eastern Time
 const EVENT_TARGET = new Date(DATE_OF_COURSE).getTime()
 
 function pad(n: number) {

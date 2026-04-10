@@ -2,24 +2,25 @@
 
 import { motion } from "framer-motion"
 import { INSTRUCTOR_NAME, INSTRUCTOR_INITIALS } from "@/lib/copy"
-import type { Copy } from "@/lib/copy"
+import type { Copy, Lang } from "@/lib/copy"
 
 const fadeUpVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 }
 
-const DANIEL_NAME = "Daniel Castiblanco"
+ const DANIEL_NAME = "Daniel Castiblanco"
 const DANIEL_INITIALS = "DC"
-const DANIEL_BADGE_ES = "Co-Founder & CTO"
+/*const DANIEL_BADGE_ES = "Co-Founder & CTO"
 const DANIEL_BADGE_EN = "Co-Founder & CTO"
 const DANIEL_BIO_ES =
   "Ingeniero de software con 7+ años construyendo productos full-stack a escala. Especialista en arquitectura TypeScript/Angular, DevOps con Docker y productos basados en IA. Creador de Sendell, plataforma de agentes IA en producción con clientes activos."
 const DANIEL_BIO_EN =
   "Software engineer with 7+ years of experience building full-stack products at scale. Specialist in TypeScript/Angular architecture, DevOps with Docker, and AI-based products. Creator of Sendell, a production AI agent platform with active clients."
-
+ */
 interface InstructorProps {
   c: Copy
+  lang: Lang
   prefersReducedMotion: boolean
 }
 
@@ -107,10 +108,8 @@ function FounderCard({
   )
 }
 
-export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) {
-  const isEs = (c as any).instructorBadge?.includes("bilingüe") ?? true
-  const danielBadge = isEs ? DANIEL_BADGE_ES : DANIEL_BADGE_EN
-  const danielBio = isEs ? DANIEL_BIO_ES : DANIEL_BIO_EN
+export function InstructorSection({ c, lang, prefersReducedMotion }: InstructorProps) {
+  const isEs = lang === "es"
 
   return (
     <section
@@ -127,10 +126,10 @@ export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) 
           className="text-center mb-12"
         >
           <p className="text-orange-400 text-sm font-semibold uppercase tracking-widest mb-2">
-            {isEs ? "Quiénes enseñan" : "Who teaches"}
+            {c.sectionTeach}
           </p>
           <h2 className="text-3xl sm:text-4xl font-black text-white">
-            {isEs ? "Los fundadores" : "The founders"}
+            {c.sectionFounders}
           </h2>
         </motion.div>
 
@@ -150,12 +149,9 @@ export function InstructorSection({ c, prefersReducedMotion }: InstructorProps) 
           <FounderCard
             initials={DANIEL_INITIALS}
             name={DANIEL_NAME}
-            badge={danielBadge}
-            bio={danielBio}
-            stats={[
-              { value: "30+", label: isEs ? "Proyectos deployados" : "Projects deployed" },             
-              { value: "7+", label: isEs ? "Años de experiencia" : "Years experience" },
-            ]}
+            badge={c.instructorBadge}
+            bio={c.instructorBio}
+            stats={c.instructorStats}
             gradientFrom="#3B82F6"
             gradientTo="#1D4ED8"
             delay={0.15}
