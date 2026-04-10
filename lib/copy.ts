@@ -1,6 +1,6 @@
+import { EVENT_DATE, EVENT_DATE_EN } from "./const"
 
-export const EVENT_DATE = "Sábado 18 de Abril, 2026"
-export const EVENT_DATE_EN = "Saturday, April 18, 2026"
+
 export const WA_NUMBER = "15513349406" // WhatsApp oficial
 export const SPOTS_AVAILABLE = 50 // [REEMPLAZAR: CUPOS_DISPONIBLES]
 export const INSTRUCTOR_NAME = "Carlos Riquelme" // [REEMPLAZAR: NOMBRE_INSTRUCTOR]
@@ -14,6 +14,16 @@ export const copy = {
   es: {
     // Announcement bar
     announcementBar: `🎓 FORMACIÓN EN VIVO · ${EVENT_DATE} · 10 AM – 12 PM ET · Next.js + IA + Vibe Coding · 2 Horas · De cero a deployado · Solo ${SPOTS_AVAILABLE} estudiantes · $297 Early Bird →`,
+
+    instructorName: "Daniel Castiblanco",
+    instructorBadge: "Co-Fundador & CTO",
+    instructorBio: "Ingeniero de software con 7+ años construyendo productos full-stack a escala. Especialista en arquitectura TypeScript/Angular, DevOps con Docker y productos basados en IA. Creador de Sendell, plataforma de agentes IA en producción con clientes activos.",
+    instructorStats: [
+      { value: "30+", label: "Proyectos deployados" },
+      { value: "7+", label: "Años de experiencia" },
+    ],
+    sectionTeach: "Quiénes enseñan",
+    sectionFounders: "Los fundadores",
 
     // Navbar
     navLogo: "Build in Nextjs",
@@ -37,14 +47,14 @@ export const copy = {
       "tu nueva habilidad que paga $1,500–$5,000 por proyecto.",
       "construida en 2 horas de formación intensiva.",
     ],
-    subheadline: "En este taller en vivo aprenderás el método exacto que usan los developers mejor pagados en USA para crear, deployar y vender landing pages con Next.js, IA y herramientas pro — en tiempo real, contigo, este sábado.",
+    subheadline: "En este taller en vivo aprenderás el método exacto que usan los developers mejor pagados en USA para crear, deployar y vender landing pages con Next.js, IA y herramientas pro — en tiempo real, contigo, este Miércoles",
     trustSignals: [
       { icon: "⚡", text: "2 horas en vivo" },
       { icon: "💼", text: "$1,500+ por proyecto" },
       { icon: "🛡️", text: "Garantía total" },
     ],
     heroCta: "Asegurar mi cupo ($297) →",
-    heroCopy: "Aprende · construye · deploya · en un solo sábado · Garantía total si no aprendes nada aplicable",
+    heroCopy: "Aprende · construye · deploya · en un solo Miércoles · Garantía total si no aprendes nada aplicable",
     heroSecondary: "Ver qué construirás ↓",
     browserUrl: "Build in Nextjs.com ✓ 🔒",
     terminalLines: [
@@ -131,7 +141,7 @@ export const copy = {
     nextQuote: "Las empresas que más invierten en Next.js no lo hacen por tendencia. Lo hacen porque convierte mejor, rankea mejor y escala sin límite. Tú lo aprenderás en 3 horas.",
 
     // Curriculum
-    curriculumTitle: "Tu sábado, módulo a módulo — 2 horas que cambian tu carrera:",
+    curriculumTitle: "Tu Miércoles, módulo a módulo — 2 horas que cambian tu carrera:",
     learnBadge: "Aprenderás:",
     leaveBadge: "Saldrás con:",
     modules: [
@@ -286,12 +296,12 @@ export const copy = {
     ],
 
     // Instructor
-    instructorBio: `Arquitecto de ecosistemas con 12 años innovando en tech. 10 productos construidos. 9 incubaciones impulsadas en Latam. Especializado en el mercado latino: emprendedores, equipos y builders que quieren construir negocios reales con herramientas de frontera.`,
+/*     instructorBio: `Arquitecto de ecosistemas con 12 años innovando en tech. 10 productos construidos. 9 incubaciones impulsadas en Latam. Especializado en el mercado latino: emprendedores, equipos y builders que quieren construir negocios reales con herramientas de frontera.`,
     instructorBadge: "🌎 Founder & CEO",
     instructorStats: [
       { label: "Proyectos deployados", value: `${INSTRUCTOR_PROJECTS}+` },
       { label: "Años de experiencia", value: `${INSTRUCTOR_YEARS}` },
-    ],
+    ], */
 
     // FAQ
     faqTitle: "Preguntas frecuentes",
@@ -390,11 +400,11 @@ export const copy = {
     nextBtn: "Continuar →",
 
     // Final CTA
-    finalTitle: "Tu landing page, en producción, este sábado.",
+    finalTitle: "Tu landing page, en producción, este Miércoles",
     finalTypewriterPhrases: [
       "2 horas. Tú. Tu código. En vivo.",
       "Sin devs. Sin esperar. La habilidad es tuya.",
-      "Sábado 10 AM ET. 50 cupos. ¿Entras?",
+      "Miércoles 10 AM ET. 50 cupos. ¿Entras?",
     ],
     countdownLabel: "Early Bird $297 termina en:",
     finalCta: "SÍ, QUIERO MI LUGAR POR $297 →",
@@ -416,7 +426,7 @@ export const copy = {
     footerCopy: `© 2026 Build in Nextjs. Evento 100% online. Horario Eastern Time (ET). NJ / NY / USA. Hecho con ❤️ para la comunidad latina.`,
 
     heroUrgency: {
-      banner: "⚡ Early Bird $297 activo — Solo quedan 50 cupos · Sube a $397 después de este sábado",
+      banner: "⚡ Early Bird $297 activo — Solo quedan 50 cupos · Sube a $397 después de este Miércoles",
       wakeupLine1: "¿Cuánto te costó la última landing page que mandaste a hacer?",
       wakeupLine2: "Ahora multiplica eso por cada cliente nuevo que quieras conseguir este año.",
       mathHeader: "> cost-analysis --dependency-mode",
@@ -430,7 +440,7 @@ export const copy = {
         ["Precio de tu servicio", "Estándar de mercado", "Premium justificado técnicamente"],
         ["Dependencia de terceros", "Alta — cuello de botella permanente", "Cero — autónomo en producción"],
       ],
-      marqueeLabel: "Lo que dominarás este sábado:",
+      marqueeLabel: "Lo que dominarás este Miércoles:",
       marqueeItems: ["Next.js 15", "Vercel", "Tailwind CSS", "v0.app", "Cursor", "Claude AI", "Framer Motion", "Resend"],
       riskTitleNow: "AHORA — CADA SEMANA SIN ESTO",
       riskItemsNow: [
@@ -451,7 +461,7 @@ export const copy = {
       trustLines: [
         "🛡️ Garantía total — si no deployás una landing, entras al siguiente gratis",
         "💳 3 cuotas de ~$99 disponibles · Reserva por $150",
-        "📍 Sábado en vivo · NJ / NY · Online disponible",
+        "📍 Miércoles en vivo · NJ / NY · Online disponible",
       ],
       countdownLabel: "Early Bird $297 termina en:",
     },
@@ -459,6 +469,16 @@ export const copy = {
 
   en: {
     announcementBar: `🎓 LIVE TRAINING · ${EVENT_DATE_EN} · 10 AM – 12 PM ET · Next.js + AI + Vibe Coding · 2 Hours · Zero to deployed · Only ${SPOTS_AVAILABLE} students · $297 Early Bird →`,
+
+    instructorName: "Daniel Castiblanco",
+    instructorBadge: "Co-Founder & CTO",
+    instructorBio: "Software engineer with 7+ years of experience building full-stack products at scale. Specialist in TypeScript/Angular architecture, DevOps with Docker, and AI-based products. Creator of Sendell, a production AI agent platform with active clients.",
+    instructorStats: [
+      { value: "30+", label: "Projects deployed" },
+      { value: "7+", label: "Years experience" },
+    ],
+    sectionTeach: "Who teaches",
+    sectionFounders: "The founders",
 
     navLogo: "Build in Nextjs",
     navLinks: [
@@ -480,14 +500,14 @@ export const copy = {
       "your new skill that pays $1,500–$5,000 per project.",
       "built in 2 hours of intensive live training.",
     ],
-    subheadline: "In this live workshop you'll learn the exact method used by the highest-paid developers in the USA to build, deploy, and sell landing pages with Next.js, AI, and pro tools — in real time, with you, this Saturday.",
+    subheadline: "In this live workshop you'll learn the exact method used by the highest-paid developers in the USA to build, deploy, and sell landing pages with Next.js, AI, and pro tools — in real time, with you, this Wednesday",
     trustSignals: [
       { icon: "⚡", text: "2 live hours" },
       { icon: "💼", text: "$1,500+ per project" },
       { icon: "🛡️", text: "Full guarantee" },
     ],
     heroCta: "Secure my spot ($297) →",
-    heroCopy: "Learn · build · deploy · in a single Saturday · Full guarantee if you don't learn anything applicable",
+    heroCopy: "Learn · build · deploy · in a single Wednesday · Full guarantee if you don't learn anything applicable",
     heroSecondary: "See what you'll build ↓",
     browserUrl: "Build in Nextjs.com ✓ 🔒",
     terminalLines: [
@@ -569,7 +589,7 @@ export const copy = {
     ],
     nextQuote: "Companies that invest in Next.js don't do it for trends. They do it because it converts better, ranks better, and scales without limits. You'll learn it in 3 hours.",
 
-    curriculumTitle: "Your Saturday, module by module — 2 hours that change your career:",
+    curriculumTitle: "Your Wednesday, module by module — 2 hours that change your career:",
     learnBadge: "You'll learn:",
     leaveBadge: "You'll leave with:",
     modules: [
@@ -821,17 +841,17 @@ export const copy = {
     successBtn: "Open WhatsApp again →",
     nextBtn: "Continue →",
 
-    finalTitle: "Your landing page, in production, this Saturday.",
+    finalTitle: "Your landing page, in production, this Wednesday",
     finalTypewriterPhrases: [
       "2 hours. You. Your code. Live.",
       "No devs. No waiting. The skill is yours.",
-      "Saturday 10 AM ET. 50 spots. Are you in?",
+      "Wednesday 10 AM ET. 50 spots. Are you in?",
     ],
     finalSocial: `🔥 ${ENROLLED_THIS_WEEK} people have already reserved their spot this week`,
     finalMicro: "→ WhatsApp registration · 3 installments of ~$99 available · Reserve for $250 · Full guarantee",
 
     heroUrgency: {
-      banner: "⚡ Early Bird $297 active — Only 50 spots left · Rises to $397 after this Saturday",
+      banner: "⚡ Early Bird $297 active — Only 50 spots left · Rises to $397 after this Wednesday",
       wakeupLine1: "How much did the last landing page you commissioned cost you?",
       wakeupLine2: "Now multiply that by every new client you want to get this year.",
       mathHeader: "> cost-analysis --dependency-mode",
@@ -845,7 +865,7 @@ export const copy = {
         ["Price of your service", "Market standard", "Technically justified premium"],
         ["Dependency on third parties", "High — permanent bottleneck", "Zero — autonomous in production"],
       ],
-      marqueeLabel: "What you will master this Saturday:",
+      marqueeLabel: "What you will master this Wednesday:",
       marqueeItems: ["Next.js 15", "Vercel", "Tailwind CSS", "v0.app", "Cursor", "Claude AI", "Framer Motion", "Resend"],
       riskTitleNow: "NOW — EVERY WEEK WITHOUT THIS",
       riskItemsNow: [
@@ -866,7 +886,7 @@ export const copy = {
       trustLines: [
         "🛡️ Total guarantee — if you don't deploy a landing, the next one is free",
         "💳 3 installments of ~$99 available · Reserve for $150",
-        "📍 Saturday live · NJ / NY · Online available",
+        "📍 Wednesday live · NJ / NY · Online available",
       ],
       countdownLabel: "Early Bird $297 ends in:",
     },

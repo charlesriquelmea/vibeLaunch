@@ -119,7 +119,7 @@ export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTA
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="text-xl text-slate-300 font-medium min-h-[2rem]"
+          className="text-xl text-slate-300 font-medium min-h-8"
         >
           {displayed}
           <motion.span
@@ -142,12 +142,13 @@ export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTA
           <p className="text-sm text-slate-400">{c.countdownLabel}</p>
           <div className="flex items-center gap-2 font-mono font-black text-4xl md:text-5xl text-red-400">
             <span className="tabular-nums">{countdown.days}</span>
-            <span className="text-slate-700">:</span>
+            <span className="text-slate-700">:d </span>
             <span className="tabular-nums">{countdown.h}</span>
-            <span className="text-slate-700">:</span>
+            <span className="text-slate-700">:h </span>
             <span className="tabular-nums">{countdown.m}</span>
-            <span className="text-slate-700">:</span>
+            <span className="text-slate-700">:m </span>
             <span className="tabular-nums">{countdown.s}</span>
+            <span className="text-slate-700">:s </span>
           </div>
         </motion.div>
 
@@ -170,7 +171,7 @@ export function FinalCTASection({ c, prefersReducedMotion, countdown }: FinalCTA
             {c.finalCta}
           </Button>
           <p className="text-xs text-slate-500">{c.finalMicro}</p>
-          <p className="text-sm text-orange-400 font-semibold">{c.finalSocial}</p>
+          {/* <p className="text-sm text-orange-400 font-semibold">{c.finalSocial}</p> */}
         </motion.div>
       </div>
     </section>
